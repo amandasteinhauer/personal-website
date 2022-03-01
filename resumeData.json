@@ -34,16 +34,39 @@
     ],
     "work": [
       {
-        "company": "Awesome Design Studio",
-        "title": "Senior UX God ",
-        "years": "March 2010 - Present",
-        "description": "Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+        "company": "Wattpad",
+        "title": "Associate Engineer",
+        "years": "May 2019 - August 2020",
+        "description": "",
+        "points": [
+          "Created ETL data pipelines that scheduled, extracted, processed, and exported relevant data using python, SQL, spark and AWS to form datasets that delivered insights into the works created by users",
+          "Built website pages and components using ReactJS, redux and JavaScript to increase user satisfaction and facilitate data collection",
+          "Developed similarity models using python with natural language processing techniques (doc2vec, tfidf, etc.) and built a web service and API for the model to be used",
+          "Engineered a LSTM-CRF named entity recognition model to identify the characters in a text with 98% precision",
+          "Developed a comment toxicity detection model with 65% accuracy to identify harmful comments on the platform to keep the community safe"
+        ]
       },
       {
-        "company": "Super Cool Studio",
-        "title": "Junior bug fixer",
-        "years": "March 2007 - February 2010",
-        "description": "Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+        "company": "Lawo",
+        "title": "Student Developer",
+        "years": "May 2018 - December 2018",
+        "description": "",
+        "points": [
+            "Developed various web applications using C#, Go, JavaScript, HTML, and CSS",
+            "Performed extensive testing on web applications to ensure functionality and performance requirements were met ",
+            "Improved the performance of a custom JSON de-serializer by 120%"
+        ]
+      },
+      {
+        "company": "University of Toronto Engineering Outreach",
+        "title": "Counselor",
+        "years": "June 2017 - August 2017",
+        "description": "",
+        "points": [
+            "Taught students to program games and web applications, such as a website hosting a custom snake game using JavaScript, HTML5 and CSS",
+            "Assisted students with understanding C++ image detection and processing programs used in the robots for the camp",
+            "Used version control software (SVN) and unit testing to ensure students always had a working copy of their programs"
+        ]
       }
     ],
     "skills": [
