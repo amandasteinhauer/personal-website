@@ -271,6 +271,14 @@ ul#nav li.current a { color: #F06000; }
    padding-top: 48px;
 }
 
+.work li{
+   list-style-type: circle;
+   font-family: 'opensans-regular', sans-serif;
+   font-weight: normal;
+   font-size: 15px;
+   line-height: 30px;
+}
+
 #resume .info {
    font: 16px/24px 'librebaskerville-italic', serif;
    color: #6E7881;

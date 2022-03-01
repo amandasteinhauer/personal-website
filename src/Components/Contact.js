@@ -25,7 +25,7 @@ class Contact extends Component {
 
             <div className="ten columns">
 
-                  <p className="lead">{message}</p>
+               <p className="lead">{message}</p>
 
             </div>
 
@@ -33,24 +33,23 @@ class Contact extends Component {
          
          <div className="row">
             <div className="eight columns">
-            <ContactForm />
-           </div>
-
+               <ContactForm />
+            </div>
 
             <aside className="four columns footer-widgets">
                <div className="widget widget_contact">
 
 					   <h4>Contact Info</h4>
 					   <p className="address">
-						   {name}<br />
-						   {city}, {province} <br />
-						   <span>{phone}</span> <br />
+						   <span>{name}</span><br />
+						   <span>{city}, {province}</span><br />
+						   <span>{phone}</span><br />
                      <span>{email}</span>
 					   </p>
 				   </div>
             </aside>
-      </div>
-   </section>
+         </div>
+      </section>
     );
   }
 }

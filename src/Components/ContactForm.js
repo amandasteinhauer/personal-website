@@ -30,7 +30,7 @@ function ContactForm(){
             <div>
                 <label htmlFor="contactMessage">Message <span className="required">*</span></label>
                 <textarea cols="50" rows="15" id="contactMessage" name="message"></textarea>
-                    <ValidationError prefix="Message" field="message" errors={state.errors} />
+                <ValidationError prefix="Message" field="message" errors={state.errors} />
             </div>
             <div>
                 <button className="submit" disabled={state.submitting} type="submit">Submit</button>
