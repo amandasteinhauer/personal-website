@@ -44,7 +44,7 @@ class Contact extends Component {
 						   <span>{name}</span><br />
 						   <span>{city}, {province}</span><br />
 						   <span>{phone}</span><br />
-                     <span>{email}</span>
+                     <span><a href="mailto:amanda.steinhauer@protonmail.com">{email}</a></span>
 					   </p>
 				   </div>
             </aside>

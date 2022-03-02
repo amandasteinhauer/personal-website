@@ -11,8 +11,16 @@ class About extends Component {
       var province = this.props.data.address.province;
       var phone= this.props.data.phone;
       var email = this.props.data.email;
-      var resumeDownload = this.props.data.resumedownload;
+      // var resumeDownload = "/assets/" + this.props.data.resumedownload;
     }
+
+    /*
+    <div className="columns download">
+                  <p>
+                     <a href={resumeDownload} className="button" target="_blank" rel="noopener noreferrer" download="AmandaSteinhauerResume.pdf"><i className="fa fa-download"></i>Download Resume</a>
+                  </p>
+               </div>
+    */
 
     return (
       <section id="about">
@@ -31,13 +39,8 @@ class About extends Component {
 						   <span>{name}</span><br />
 						   <span>{city}, {province}</span><br />
 						   <span>{phone}</span><br />
-                     <span>{email}</span>
+                     <span><a href="mailto:amanda.steinhauer@protonmail.com">{email}</a></span>
 					   </p>
-               </div>
-               <div className="columns download">
-                  <p>
-                     <a href={resumeDownload} className="button"><i className="fa fa-download"></i>Download Resume</a>
-                  </p>
                </div>
             </div>
          </div>
