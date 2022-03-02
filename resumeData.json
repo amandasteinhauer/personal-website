@@ -2,10 +2,10 @@
   "main": {
     "name": "Amanda Steinhauer",
     "occupation": "Software Developer",
-    "description": "Here will be your description. Use this to describe what you do or whatever you feel best describes yourself to a potential employer",
+    "description": "",
     "image": "profilepic.png",
-    "bio": "Use this bio section as your way of describing yourself and saying what you do, what technologies you like to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing in.",
-    "contactmessage": "Here is where you should write your message to readers to have them get in contact with you.",
+    "bio": "I am a passionate learner that uses my problem-solving skills to create solutions that improves the lives of others. I have studied computer engineering at the University of Toronto and have used my knowledge of software to develop such solutions like an iOS health app that to manage cardiovascular disease or a machine learning model that detects toxicity online communities. I would love to keep learning and working on projects that contribute to the improvement of society. ",
+    "contactmessage": "Get in Touch!",
     "email": "amanda.steinhauer@protonmail.com",
     "phone": "647-226-9255",
     "address": {
@@ -13,6 +13,7 @@
       "province": "Ontario"
     },
     "website": "https://amandasteinhauer.github.io/personal-website/",
+    "resumedownload": "Amanda_Steinhauer_Resume.pdf", 
     "social": [
 
       {
@@ -23,7 +24,7 @@
     ]
   },
   "resume": {
-    "skillmessage": "Here you can create a short write-up of your skills to show off to employers",
+    "skillmessage": "I have experience using a wide range of languages, tools and frameworks that enable me to create cool projects",
     "education": [
       {
         "school": "University of Toronto",
@@ -69,13 +70,36 @@
         ]
       }
     ],
+    "project": [
+      {
+        "title": "Apollog",
+        "role": "Developer",
+        "years": "July 2020 - April 2021",
+        "description": "An iOS app built using Swift that allows users to remotely monitor cardiovascular disease using symptoms, medications, and heart vitals collected from wearables",
+        "points": [
+          "Designed and built user interfaces to meet usability standards and accessibility guidelines",
+          "Completed user research and system usability testing to guide app updates and increase user satisfaction by 10%",
+          "Designed, implemented, and maintained databases using Google Firebase",
+          "Collaborated with other students using Git and GitHub to manage and back-up code",
+          "Implemented code guidelines and developed documentation to improve app efficiency"
+        ]
+      }
+    ],
     "skills": [
       {
-        "name": "Git",
-        "level": "60%"
+        "name": "Python",
+        "level": "75%"
       },
       {
-        "name": "Illustrator",
+        "name": "Java",
+        "level": "70%"
+      },
+      {
+        "name": "C++",
+        "level": "55%"
+      },
+      {
+        "name": "JavaScript",
         "level": "55%"
       },
       {
@@ -84,47 +108,31 @@
       },
       {
         "name": "CSS",
-        "level": "90%"
+        "level": "80%"
       },
       {
         "name": "HTML5",
         "level": "80%"
       },
       {
-        "name": "VueJs",
+        "name": "SQL",
+        "level": "65%"
+      },
+      {
+        "name": "Git",
+        "level": "70%"
+      },
+      {
+        "name": "Swift",
         "level": "50%"
-      },
-      {
-        "name": "MongoDB",
-        "level": "80%"
       }
-    ]
-  },
-  "portfolio": {
-    "projects": [
-      {
-        "title": "Canadian Wanderlust",
-        "category": "My Travel Blog for my post-university travels",
-        "image": "canadian-wanderlust.jpg",
-        "url": "https://www.canadianwanderlust.com"
-      },
-      {
-        "title": "Fury Fighting Gear",
-        "category": "(offline now) A fighting gear company I started",
-        "image": "fury-fighting-gear.jpg",
-        "url": "http://www.timbakerdev.com"
-      } 
     ]
   },
   "testimonials": {
     "testimonials": [
       {
-        "text": "Here you should write some nice things that someone has said about you. No lies though, employers can tell when you are lying.",
-        "user": "Kareem Abdul Jabbar"
-      },
-      {
-        "text": "That Tim Baker must be one of the most brilliant developers I've ever met! It is amazing that nobody has hired him yet. Hey you, you should hire this guy, he may be fresh out of University and have zero on the job experience but I am confident that he will be one of your best developers in no time!",
-        "user": "Steve Wozniak... impersonator"
+        "text": "Amanda is a fast learner, as demonstrated by her ability to quickly embrace new programming languages. She came to us with a background largely in C++ though our codebase was mostly in C# and Go. It didn’t take long for her to rise to the challenge and deliver solid, performant code in these languages.",
+        "user": "Adam Coulter"
       }
     ]
   }

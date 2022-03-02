@@ -22,7 +22,7 @@
 /* a. General Styles
 /* ------------------------------------------------------------------ */
 
-body { background: #5f5dbd; }
+body { background: rgb(35, 57, 42); }
 
 /* ------------------------------------------------------------------ */
 /* b. Header Styles
@@ -33,7 +33,7 @@ header {
    height: 800px;
    min-height: 500px;
    width: 100%;
-   background: #5f5dbd url(./../images/header-background.jpg) no-repeat top center;
+   background: rgb(35, 57, 42) url(./../images/header-background.jpg) no-repeat top center;
    background-size: cover !important;
 	-webkit-background-size: cover !important;
    text-align: center;
@@ -66,7 +66,7 @@ header .banner-text h1 {
 }
 header .banner-text h3 {
    font: 18px/1.9em 'librebaskerville-regular', serif;
-   color: #A8A8A8;
+   color: #dbd4d4;
    margin: 0 auto;
    width: 70%;
    text-shadow: 0px 1px 2px rgba(0, 0, 0, .5);
@@ -95,7 +95,7 @@ header .social li {
    padding: 0;
 }
 header .social li a { color: #fff; }
-header .social li a:hover { color: #11ABB0; }
+header .social li a:hover { color: #67A279; }
 
 /* scrolldown link */
 header .scrolldown a {
@@ -117,7 +117,7 @@ header .scrolldown a {
    -o-transition: all .3s ease-in-out;
    transition: all .3s ease-in-out;
 }
-header .scrolldown a:hover { color: #11ABB0; }
+header .scrolldown a:hover { color: #67A279; }
 
 /* primary navigation
 --------------------------------------------------------------------- */
@@ -139,6 +139,7 @@ header .scrolldown a:hover { color: #11ABB0; }
    position: fixed;
    left: 0;
    top: 0;
+   background-color: #04290C;
 }
 .opaque { background-color: #333; }
 
@@ -187,14 +188,14 @@ ul#nav li.current a { color: #F06000; }
 /* ------------------------------------------------------------------ */
 
 #about {
-   background: #5f5dbd;
+   background: rgb(35, 57, 42);
    padding-top: 96px;
    padding-bottom: 66px;
    overflow: hidden;
 }
 
 #about a, #about a:visited  { color: #fff; }
-#about a:hover, #about a:focus { color: #11ABB0; }
+#about a:hover, #about a:focus { color: #67A279; }
 
 #about h2 {
    font: 22px/30px 'opensans-bold', sans-serif;
@@ -219,7 +220,7 @@ ul#nav li.current a { color: #F06000; }
 #about .main-col { padding-right: 5%; }
 #about .download .button {
    margin-top: 6px;
-   background: rgb(76, 10, 161);
+   background: rgb(49, 99, 54);
 }
 #about .download .button:hover {
    background: #fff;
@@ -242,16 +243,17 @@ ul#nav li.current a { color: #F06000; }
    overflow: hidden;
 }
 
-#resume a, #resume a:visited  { color: #11ABB0; }
+#resume a, #resume a:visited  { color: #67A279; }
 #resume a:hover, #resume a:focus { color: #313131; }
 
 #resume h1 {
    font: 18px/24px 'opensans-bold', sans-serif;
    text-transform: uppercase;
    letter-spacing: 1px;
+   color: #04290C;
 }
 #resume h1 span {
-   border-bottom: 3px solid #11ABB0;
+   border-bottom: 3px solid #51A458;
    padding-bottom: 6px;
 }
 #resume h3 {
@@ -261,17 +263,17 @@ ul#nav li.current a { color: #F06000; }
 #resume .header-col { padding-top: 9px; }
 #resume .main-col { padding-right: 10%; }
 
-.education, .work {
+.education, .work, .project {
    margin-bottom: 48px;
    padding-bottom: 24px;
    border-bottom: 1px solid #E8E8E8;
 }
 
-.work, .skill{
+.work, .skill, .project{
    padding-top: 48px;
 }
 
-.work li{
+.work li, .project li{
    list-style-type: circle;
    font-family: 'opensans-regular', sans-serif;
    font-weight: normal;
@@ -317,7 +319,7 @@ ul#nav li.current a { color: #F06000; }
 }
 .bars li em {
 	font: 15px 'opensans-bold', sans-serif;
-   color: #313131;
+   color: #2F6032;
 	text-transform: uppercase;
    letter-spacing: 2px;
 	font-weight: normal;
@@ -331,7 +333,7 @@ ul#nav li.current a { color: #F06000; }
 
    margin: 0;
    padding-right: 24px;
-  	background: #313131;
+  	background: #2F6032;
    display: inline-block;
   	height: 42px;
    line-height: 42px;
@@ -807,14 +809,14 @@ call-to-action .button {
 /* ------------------------------------------------------------------ */
 
 #contact {
-   background: #191919;
+   background: rgb(35, 57, 42);
    padding-top: 96px;
    padding-bottom: 102px;
-   color: #636363;
+   color: white;
 }
 #contact .section-head { margin-bottom: 42px; }
 
-#contact a, #contact a:visited  { color: #11ABB0; }
+#contact a, #contact a:visited  { color: #67A279; }
 #contact a:hover, #contact a:focus { color: #fff; }
 
 #contact h1 {
@@ -862,7 +864,7 @@ call-to-action .button {
 #contact select {
    padding: 18px 20px;
 	color: #eee;
-	background: #373233;
+	background: #467253;
 	margin-bottom: 42px;
 	border: 0;
 	outline: none;
@@ -874,13 +876,13 @@ call-to-action .button {
 #contact textarea:focus,
 #contact select:focus {
 	color: #fff;
-	background-color: #11ABB0;
+	background-color: #67A279;
 }
 #contact button.submit {
 	text-transform: uppercase;
 	letter-spacing: 3px;
 	color:#fff;
-   background: #0D0D0D;
+   background: rgb(49, 99, 54);
 	border: none;
    cursor: pointer;
    height: auto;
@@ -893,7 +895,7 @@ call-to-action .button {
 	background: #fff;
 }
 #contact span.required {
-	color: #11ABB0;
+	color: #67A279;
 	font-size: 13px;
 }
 #message-warning, #message-success {
@@ -905,7 +907,7 @@ call-to-action .button {
    margin-left: 26%;
 }
 #message-warning { color: #D72828; }
-#message-success { color: #11ABB0; }
+#message-success { color: #67A279; }
 
 #message-warning i,
 #message-success i {
@@ -916,25 +918,6 @@ call-to-action .button {
    position: relative;
    left: 18px;
    top: 17px;
-}
-
-
-/* Twitter Feed */
-#twitter {
-   margin-top: 12px;
-   padding: 0;
-}
-#twitter li {
-   margin: 6px 0px 12px 0;
-   line-height: 30px;
-}
-#twitter li span {
-   display: block;
-}
-#twitter li b a {
-   font: 13px/36px 'opensans-regular', Sans-serif;
-   color: #474747 !important;
-   border: none;
 }
 
 
@@ -1020,4 +1003,4 @@ footer .social-links li:first-child { margin-left: 0; }
    line-height: 60px;
  	border-radius: 100%;
 }
-#go-top a:hover { background-color: #0F9095; }
+#go-top a:hover { background-color: #67A279; }
