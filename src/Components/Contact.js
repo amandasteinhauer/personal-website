@@ -7,7 +7,6 @@ class Contact extends Component {
       var name = this.props.data.name;
       var city = this.props.data.address.city;
       var province = this.props.data.address.province;
-      var phone= this.props.data.phone;
       var email = this.props.data.email;
       var message = this.props.data.contactmessage;
     }
@@ -43,7 +42,6 @@ class Contact extends Component {
 					   <p className="address">
 						   <span>{name}</span><br />
 						   <span>{city}, {province}</span><br />
-						   <span>{phone}</span><br />
                      <span><a href="mailto:amanda.steinhauer@protonmail.com">{email}</a></span>
 					   </p>
 				   </div>

@@ -9,7 +9,6 @@ class About extends Component {
       var bio = this.props.data.bio;
       var city = this.props.data.address.city;
       var province = this.props.data.address.province;
-      var phone= this.props.data.phone;
       var email = this.props.data.email;
       // var resumeDownload = "/assets/" + this.props.data.resumedownload;
     }
@@ -38,7 +37,6 @@ class About extends Component {
                   <p className="address">
 						   <span>{name}</span><br />
 						   <span>{city}, {province}</span><br />
-						   <span>{phone}</span><br />
                      <span><a href="mailto:amanda.steinhauer@protonmail.com">{email}</a></span>
 					   </p>
                </div>
