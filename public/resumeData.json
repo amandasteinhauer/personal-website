@@ -72,6 +72,7 @@
     "project": [
       {
         "title": "Apollog",
+        "link": "",
         "role": "Developer",
         "years": "July 2020 - April 2021",
         "description": "An iOS app built using Swift that allows users to remotely monitor cardiovascular disease using symptoms, medications, and heart vitals collected from wearables",
@@ -81,6 +82,15 @@
           "Designed, implemented, and maintained databases using Google Firebase",
           "Collaborated with other students using Git and GitHub to manage and back-up code",
           "Implemented code guidelines and developed documentation to improve app efficiency"
+        ]
+      },
+      {
+        "title": "Cat TV",
+        "link": "https://github.com/amandasteinhauer/cat-tv",
+        "role": "Developer",
+        "years": "2022",
+        "description": "A web application built in Python using Flask and SQL to provide entertaining videos to enrich the lives indoor cats",
+        "points": [
         ]
       }
     ],

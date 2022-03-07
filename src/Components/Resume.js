@@ -4,7 +4,7 @@ class Resume extends Component {
   render() {
 
     if(this.props.data){
-      var skillmessage = this.props.data.skillmessage;
+      //var skillmessage = this.props.data.skillmessage;
       var education = this.props.data.education.map(function(education){
         return <div key={education.school}><h3>{education.school}</h3>
         <p className="info">{education.degree} <span>&bull;</span><em className="date">{education.graduated}</em></p>
@@ -29,9 +29,13 @@ class Resume extends Component {
         );
       })
       var project = this.props.data.project.map(function(project){
+        var title = <h3>{project.title}</h3>
+        if (project.link !== "" ){
+          title = <a href={project.link}><h3>{project.title}</h3></a>
+        }
         return (
           <div key={project.title}>
-            <h3>{project.title}</h3>
+            {title}
             <p className="info">{project.role}<span>&bull;</span> <em className="date">{project.years}</em></p>
             <p>{project.description}</p>
             <ul>
@@ -46,11 +50,29 @@ class Resume extends Component {
         </div>
         );
       })
-      var skills = this.props.data.skills.map(function(skills){
-        var className = 'bar-expand '+skills.name.toLowerCase();
-        return <li key={skills.name}><span style={{width:skills.level}}className={className}></span><em>{skills.name}</em></li>
-      })
+     // var skills = this.props.data.skills.map(function(skills){
+      //  var className = 'bar-expand '+skills.name.toLowerCase();
+      //  return <li key={skills.name}><span style={{width:skills.level}}className={className}></span><em>{skills.name}</em></li>
+      //})
     }
+
+    /*
+    <div className="row skill">
+
+          <div className="three columns header-col">
+            <h1><span>Skills</span></h1>
+          </div>
+
+          <div className="nine columns main-col">
+
+            <p>{skillmessage}</p>
+            <div className="bars">
+              <ul className="skills">
+              {skills}
+              </ul>
+            </div> 
+		    	</div>
+      </div> */
 
     return (
       <section id="resume">
@@ -83,23 +105,6 @@ class Resume extends Component {
           <div className="nine columns main-col">
             {project}
           </div>
-      </div>
-      <div className="row skill">
-
-          <div className="three columns header-col">
-            <h1><span>Skills</span></h1>
-          </div>
-
-          <div className="nine columns main-col">
-
-            <p>{skillmessage}</p>
-
-				    <div className="bars">
-				      <ul className="skills">
-					      {skills}
-					    </ul>
-				    </div>
-		    	</div>
       </div>
    </section>
     );
