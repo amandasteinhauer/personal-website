@@ -19,6 +19,11 @@
         "name": "linkedin",
         "url": "https://www.linkedin.com/in/amanda-s-9a9101157/",
         "className": "fa fa-linkedin"
+      },
+      {
+        "name": "github",
+        "url": "https://github.com/amandasteinhauer",
+        "className": "fa fa-github"
       }
     ]
   },
@@ -71,8 +76,20 @@
     ],
     "project": [
       {
+        "title": "Cat TV",
+        "link": "https://github.com/amandasteinhauer/cat-tv",
+        "iframe": "https://cattv.pythonanywhere.com/",
+        "video": "",
+        "role": "Developer",
+        "years": "2022",
+        "description": "A web application built in Python using Flask and SQL to provide entertaining videos to enrich the lives indoor cats",
+        "points": [
+        ]
+      },
+      {
         "title": "Apollog",
         "link": "",
+        "iframe": "https://www.youtube.com/embed/mqttlRobRIM",
         "role": "Developer",
         "years": "July 2020 - April 2021",
         "description": "An iOS app built using Swift that allows users to remotely monitor cardiovascular disease using symptoms, medications, and heart vitals collected from wearables",
@@ -83,65 +100,6 @@
           "Collaborated with other students using Git and GitHub to manage and back-up code",
           "Implemented code guidelines and developed documentation to improve app efficiency"
         ]
-      },
-      {
-        "title": "Cat TV",
-        "link": "https://github.com/amandasteinhauer/cat-tv",
-        "role": "Developer",
-        "years": "2022",
-        "description": "A web application built in Python using Flask and SQL to provide entertaining videos to enrich the lives indoor cats",
-        "points": [
-        ]
-      }
-    ],
-    "skills": [
-      {
-        "name": "Python",
-        "level": "75%"
-      },
-      {
-        "name": "Java",
-        "level": "70%"
-      },
-      {
-        "name": "C++",
-        "level": "55%"
-      },
-      {
-        "name": "JavaScript",
-        "level": "55%"
-      },
-      {
-        "name": "ReactJs",
-        "level": "50%"
-      },
-      {
-        "name": "CSS",
-        "level": "80%"
-      },
-      {
-        "name": "HTML5",
-        "level": "80%"
-      },
-      {
-        "name": "SQL",
-        "level": "65%"
-      },
-      {
-        "name": "Git",
-        "level": "70%"
-      },
-      {
-        "name": "Swift",
-        "level": "50%"
-      }
-    ]
-  },
-  "testimonials": {
-    "testimonials": [
-      {
-        "text": "Amanda is a fast learner, as demonstrated by her ability to quickly embrace new programming languages. She came to us with a background largely in C++ though our codebase was mostly in C# and Go. It didn’t take long for her to rise to the challenge and deliver solid, performant code in these languages.",
-        "user": "Adam Coulter"
       }
     ]
   }
