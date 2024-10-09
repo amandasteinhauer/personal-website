@@ -12,11 +12,9 @@ class Header extends Component {
         return <li key={network.name}><a href={network.url}><i className={network.className}></i></a></li>
       })
     }
-
-    // <li><a className="smoothscroll" href="#portfolio">Works</a></li> 
-    //<li><a className="smoothscroll" href="#testimonials">Testimonials</a></li>
     return (
       <header id="home">
+      <div class="bank-name">ACME Bank</div>
 
       <nav id="nav-wrap">
 
@@ -25,8 +23,8 @@ class Header extends Component {
 
          <ul id="nav" className="nav">
             <li className="current"><a className="smoothscroll" href="#home">Home</a></li>
-            <li><a className="smoothscroll" href="#about">About</a></li>
-	         <li><a className="smoothscroll" href="#resume">Resume</a></li>
+            <li><a className="smoothscroll" href="#personal">Personal</a></li>
+	         <li><a className="smoothscroll" href="#business">Business</a></li>
             
             
             <li><a className="smoothscroll" href="#contact">Contact</a></li>

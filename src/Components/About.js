@@ -22,28 +22,37 @@ class About extends Component {
     */
 
     return (
-      <section id="about">
-      <div className="row">
-         <div className="three columns">
-            <img className="profile-pic"  src={process.env.PUBLIC_URL + profilepic} alt="Amanda Steinhauer Profile Pic" />
-         </div>
-         <div className="nine columns main-col">
-            <h2>About Me</h2>
+   //    <section id="about">
+   //    <div className="row">
+   //       <div className="three columns">
+   //          <img className="profile-pic"  src={process.env.PUBLIC_URL + profilepic} alt="Amanda Steinhauer Profile Pic" />
+   //       </div>
+   //       <div className="nine columns main-col">
+   //          <h2>About Me</h2>
 
-            <p>{bio}</p>
-            <div className="row">
-               <div className="columns contact-details">
-                  <h2>Contact Details</h2>
-                  <p className="address">
-						   <span>{name}</span><br />
-						   <span>{city}, {province}</span><br />
-                     <span><a href="mailto:amanda.steinhauer@protonmail.com">{email}</a></span>
-					   </p>
-               </div>
-            </div>
+   //          <p>{bio}</p>
+   //          <div className="row">
+   //             <div className="columns contact-details">
+   //                <h2>Contact Details</h2>
+   //                <p className="address">
+	// 					   <span>{name}</span><br />
+	// 					   <span>{city}, {province}</span><br />
+   //                   <span><a href="mailto:amanda.steinhauer@protonmail.com">{email}</a></span>
+	// 				   </p>
+   //             </div>
+   //          </div>
+   //       </div>
+   //    </div>
+   // </section>
+      <section>
+         <div id="input-placeholder">Welcome to acme bank {name}</div>
+         <div id="input-container">
+            <div id="wave"></div>
+            <input id="user-input" type="text" />
          </div>
-      </div>
-   </section>
+         <div id="response-container"></div>
+         <script data-version="development" src="scripts.js" id="vfassistant"></script>
+      </section>
     );
   }
 }
