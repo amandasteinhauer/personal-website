@@ -18,8 +18,6 @@ class Header extends Component {
     return (
       <header id="home">
 
-      <div id="bank-name">ACME Bank</div>
-
       <nav id="nav-wrap">
 
          <a className="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
@@ -27,26 +25,26 @@ class Header extends Component {
 
          <ul id="nav" className="nav">
             <li className="current"><a className="smoothscroll" href="#home">Home</a></li>
-            <li><a className="smoothscroll hard" href="#personal">Personal</a></li>
-	         <li><a className="smoothscroll hard" href="#business">Business</a></li>
-            <li><a className="smoothscroll hard" href="#loans">Loans</a></li>
-            
-            
+            <li><a className="smoothscroll" href="#about">About</a></li>
+	         <li><a className="smoothscroll" href="#resume">Resume</a></li>
             <li><a className="smoothscroll" href="#contact">Contact</a></li>
          </ul>
 
       </nav>
 
       <div className="row banner">
-         <div id="input-placeholder">What would you like to do, {name}?</div>
-            <div id="input-container">
-               <div id="wave"></div>
-               <input id="user-input" type="text" />
-            </div>
-            <div id="response-container"></div>
-         <script data-version="development" src="scripts.js" id="vfassistant"></script>
+         <div className="banner-text">
+            <h1 className="responsive-headline">I'm {name}.</h1>
+            <h3>I'm a <span>{city}</span> based <span>{occupation}</span>. {description}</h3>
+            <hr />
+            <ul className="social">
+               {networks}
+            </ul>
+         </div>
       </div>
-
+      <p className="scrolldown">
+         <a className="smoothscroll" href="#about"><i className="icon-down-circle"></i></a>
+      </p>
    </header>
     );
   }

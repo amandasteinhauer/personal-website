@@ -1,9 +1,4 @@
 /*
-=====================================================================
-*   Ceevee v1.0 Default Stylesheet
-*   url: styleshout.com
-*   03-17-2014
-=====================================================================
 
 TOC:
 a. Webfonts and Icon fonts
@@ -797,74 +792,3 @@ properly.
 	margin-right: auto !important;
 	text-align: center !important;
 }
-
-
-
-
-#input-placeholder {
-   position: absolute;
-   bottom: 15%;
-   left: 50%;
-   transform: translate(-50%, 0);
-   color: rgba(255, 255, 255, 0.6);
-   font-weight: 300;
-   font-size: 18px;
-   opacity: 0;
-   transition: opacity 0.5s;
- }
- 
- #input-container {
-   position: absolute;
-   bottom: 15%;
-   left: 50%;
-   transform: translate(-50%, 0);
-   width: 60%;
-   opacity: 0;
-   border-bottom: 1.5px solid rgba(255, 255, 255, 0.80);
- }
- 
- #wave {
-   position: absolute;
-   top: calc(85% - 53.97px);
-   left: 50%;
-   transform: translateX(-50%);
-   opacity: 0;
-   transition: opacity 0.5s;
- }
- 
- #user-input {
-   position: absolute;
-   bottom: 15%;
-   left: 50%;
-   font-weight: 300;
-   font-family: 'Open Sans', sans-serif;
-   transform: translate(-50%, 0);
-   width: 100%;
-   background: transparent;
-   border: none;
-   outline: none;
-   color: rgba(255, 255, 255, 0.70);
-   font-size: 18px;
-   text-align: center;
- }
- 
- #response-container {
-   position: absolute;
-   top: 50%;
-   left: 50%;
-   transform: translate(-50%, -50%);
-   max-width: 50%;
-   max-height: 50%;
-   text-align: center;
-   color: rgba(255, 255, 255, 0.90);
-   font-weight: 300;
-   font-size: 20px;
-   opacity: 0;
-   transition: opacity 0.8s;
- }
-
- #bank-name {
-   font-size: 24px;
-   left: 50%;
-   color: rgba(255, 255, 255, 0.70);
- }
