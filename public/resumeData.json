@@ -39,6 +39,21 @@
     ],
     "work": [
       {
+        "company": "Voiceflow",
+        "title": "Software Engineer II -> Software Engineer III",
+        "years": "April 2022 - Present",
+        "description": "",
+        "points": [
+          "Developed 100+ scalable and reusable UI components using React.js, Typescript, and ES6+",
+          "Developed responsive and interactive features using React.js, Typescript, JavaScript, HTML and CSS to increase user engagement",
+          "Developed RESTful APIs used to fetch and display dynamic data, ensuring seamless user experiences and real-time updates for a web application with 1000s of concurrent users",
+          "Integrated with third-party APIs such as Zendesk to provide more flexibility to users",
+          "Mentored 2 intern developers to help them improve their technical abilities and confidence in software development, resulting in positive feedback from participants",
+          "Utilized Redux for state management in a complex application, improving data flow and reducing the need for prop drilling, which simplified component structure and maintenance",
+          "Worked in an Agile environment on a cross-functional team of 10, participating in daily stand-ups, sprint planning, and retrospectives to ensure timely delivery of features and improvements"
+        ]
+      },
+      {
         "company": "Wattpad",
         "title": "Associate Engineer",
         "years": "May 2019 - August 2020",
